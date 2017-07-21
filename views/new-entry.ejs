@@ -1,0 +1,16 @@
+<% include header %>
+    <h2>Write a new entry</h2>
+    <form method="POST">
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Entry title" required>
+        </div>
+        <div class="form-group">
+            <label for="content">Entry Text</label>
+            <textarea class="form-control" name="body" id="body" rows="3" required placeholder="Enter your message"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Post entry" class="btn bt primary">
+        </div>
+    </form>
+    <% include footer %>
