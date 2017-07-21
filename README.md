@@ -5,7 +5,7 @@ Simple Guestbook
 
 ## Installation
 
-  Use the command ```node start``` and navigate to the host
+  Use the command ```npm start``` and navigate to the host
 
 
 ## Contributing
